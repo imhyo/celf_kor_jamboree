@@ -1,0 +1,6 @@
+.clearfix:after { content:" ";clear:both;display:block;height:0;visibility:hidden;font-size:0;line-height:0;overflow:hidden; }
+.clearfix { display:inline-block;min-height: 1%; }
+/*\*/
+* html .clearfix { height:1%; }
+.clearfix { display:block; }
+/**/

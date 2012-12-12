@@ -1,0 +1,394 @@
+/***************************************************
+ * common css
+ * UTF-8
+ ***************************************************/
+
+@import "clearfix.css";
+
+body {
+	font-family: Arial, Verdana,sans-serif,"ＭＳ Ｐゴシック", "MS PGothic";
+	font-size:0.80em;
+	color :#666666;
+	line-height:1.67;
+	background:#fff;
+}
+
+
+a:link		{ color:#3399ff; text-decoration:underline;}
+a:visited	{ color:#3399ff; text-decoration:underline;}
+a:hover		{ color:#3399ff; text-decoration:none;}
+a:active	{ color:#3399ff; text-decoration:none;}
+
+
+#header {
+	display:block;
+	width:770px;
+	height:193px;
+	margin:0 auto 36px;
+	padding:0;
+	overflow:hidden;
+}
+
+
+#header h1 {
+	display:block;
+	width:770px;
+	height:162px;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	text-indent:-9000em;
+	background:url(http://www.celinuxforum.org/images/header_splash.gif) no-repeat 0 0;
+}
+
+
+#header a.homelink {
+	display:block;
+	width:98px;
+	height:119px;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	text-indent:-9000em;
+	position:relative;
+	top:-179px;
+	left:1px;
+}
+
+#header #searchbar {
+	display:block;
+	width:770px;
+	height:31px;
+	margin:0;
+	padding:0;
+	background:url(http://www.celinuxforum.org/images/header_searchbar_bg.gif) no-repeat 0 0;
+	overflow:hidden;
+}
+
+#header form {
+	display:block;
+	margin:0 0 0 191px;
+	padding:0;
+}
+#header input {
+	float:left;
+	display:block;
+	margin:0;
+	padding:0;
+}
+
+#header input.form-text {
+	width:119px;
+	height:17px;
+	margin:6px 0 0 0;
+	padding:0;
+	font-size:12px;
+	border:1px solid #7e9db9;
+}
+
+#header input.form-submit {
+	margin:4px 0 0 10px;
+	padding:0;
+}
+
+
+#header a.contact {
+	float:right;
+	display:block;
+	width:72px;
+	height:23px;
+	margin:4px 23px 0 0;
+	padding:0;
+	overflow:hidden;
+	text-indent:-9000em;
+	background:url(http://www.celinuxforum.org/images/header_searchbar_button02.gif) no-repeat 0 0;
+}
+
+#header a.contact:hover {
+	background-position:0 -23px;
+}
+
+
+#header a.faq {
+	float:right;
+	display:block;
+	width:72px;
+	height:23px;
+	margin:4px 2px 0 0;
+	padding:0;
+	overflow:hidden;
+	text-indent:-9000em;
+	background:url(http://www.celinuxforum.org/images/header_searchbar_button03.gif) no-repeat 0 0;
+}
+
+#header a.faq:hover {
+	background-position:0 -23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+	display:block;
+	width:770px;
+	margin:10px auto;
+	padding:0;
+}
+
+
+.main {
+	width:770x;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+.main h2 {
+	margin:0 0 20px 0;
+	padding:0;
+	font-size:210%;
+	color:#0188cc;
+	line-height:1;
+}
+
+
+.main h2 a:link		{ color:#0188cc; text-decoration:none;}
+.main h2 a:visited	{ color:#0188cc; text-decoration:none;}
+.main h2 a:hover	{ color:#0188cc; text-decoration:underline;}
+.main h2 a:active	{ color:#0188cc; text-decoration:underline;}
+
+
+.main p {
+	margin:0 0 20px 0;
+	padding:0;
+}
+
+.main ul {
+	margin:0 0 20px 0;
+	padding:0;
+	list-style-position:outside;
+	list-style-type:none;
+}
+.main ul li {
+	margin:0;
+	padding:0 0 0 1em;
+	background:url(http://www.celinuxforum.org/images/pointer_gray.gif) no-repeat 4px center;
+}
+
+
+.main ol {
+	margin:0 0 20px 0;
+	padding:0;
+	list-style-position:inside;
+}
+
+.main ol li {
+	margin:0;
+	padding:0;
+}
+
+
+
+
+.side {	
+	float:right;
+	display:block;
+	width:239px;
+	margin:0;
+	padding:0;
+}
+
+
+.side .block {
+	display:block;
+	width:239px;
+	margin:0;
+	padding:5px 0 0 0;
+	background:url(http://www.celinuxforum.org/images/side_block_top.gif) no-repeat 0 top;
+}
+
+
+.side .block dl {
+	display:block;
+	width:239px;
+	margin:0 0 14px 0;
+	padding:0 0 18px 0;
+	background:url(http://www.celinuxforum.org/images/side_block_bottom.gif) no-repeat 0 bottom;
+}
+
+
+.side .block dt {
+	margin:0;
+	padding:18px 16px 6px 38px;
+	font-size:120%;
+	background:url(http://www.celinuxforum.org/images/pointer_arrow.gif) no-repeat 16px 24px;
+}
+
+
+
+.side .block dd {
+	margin:0 0 0 3em;
+	padding:0 0 0 9px;
+	background:url(http://www.celinuxforum.org/images/pointer_blue.gif) no-repeat 0 center;
+}
+
+
+
+.side .block p,
+.side .block h2,
+.side .block h3 {
+	margin:0;
+	width:183px;
+	padding:18px 16px 6px 38px;
+	font-size:120%;
+	font-weight:normal;
+	background:url(http://www.celinuxforum.org/images/pointer_arrow.gif) no-repeat 16px 24px;
+	border:0;
+	border-left:1px solid #cacaca;
+	border-right:1px solid #cacaca;
+}
+
+.side .block ul {
+	display:block;
+	width:239px;
+	margin:0 0 14px 0;
+	padding:0 0 18px 0;
+	background:url(http://www.celinuxforum.org/images/side_block_bottom.gif) no-repeat 0 bottom;
+	list-style-position:outside;
+	list-style-type:none;
+}
+
+
+
+.side .block li {
+	margin:0 0 0 3em;
+	padding:0 0 0 9px;
+	background:url(http://www.celinuxforum.org/images/pointer_blue.gif) no-repeat 0 center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+	display:block;
+	width:770px;
+	margin:32px auto 12px;
+	padding:0;
+	font-size:90%;
+	text-align:center;
+	line-height:1.2;
+}
+
+
+#footer .title {
+	display:block;
+	width:110px;
+	height:11px;
+	margin:0 auto;
+	padding:0;
+	overflow:hidden;
+	text-indent:-9000em;
+	background:url(http://www.celinuxforum.org/images/footer_title.gif) no-repeat 0 0;
+}
+
+#footer address {
+	margin:8px auto 4px;
+	padding:0;
+	font-weight:normal;
+	font-style:normal;
+}
+
+#footer .copyright {
+	margin:0 auto;
+	padding:0;
+	font-weight:normal;
+	font-style:normal;
+}
+
+
+
+#footer a:link		{ color:#666666; text-decoration:none;}
+#footer a:visited	{ color:#666666; text-decoration:none;}
+#footer a:hover		{ color:#666666; text-decoration:underline;}
+#footer h2 a:active	{ color:#666666; text-decoration:underline;}
+
+
+#list table {
+    border-collapse: collapse;
+    width: 40em;
+    border: 2px solid #ddd;
+}
+
+#list th, td{
+    padding: 0.1em 1em;
+    font: 9pt 돋움 sans-serif;
+}
+
+#list caption{
+    font: bold 1.2em 돋움 sans-serif;
+    margin: 1em 0;
+}
+
+#list col{
+    border-right: 1px solid #ccc;
+}
+
+#list col#album{
+    border: none;
+}
+
+#list thead{
+    background-color: #ddd;
+    border-top: 1px solid #a5a5a5;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+#list th{
+    background-color: #ddd;
+    font-weight: normal;
+    text-align: center;
+}
+
+#list #artistNumHead{
+    text-indent: -1000em;
+}
+
+#list .odd{
+    background-color:#edf5ff;
+}
+
+#list tr:hover{
+    background-color: #3d80df;
+    color: #fff;
+}
+
+#list thead tr:hover, tfoot tr:hover{
+    background-color: transparent;
+    color: inherit;
+}
+
+#list thead td{
+    border-right: 1px solid #EEE;
+}
